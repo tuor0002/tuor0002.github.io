@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	height: 100%;
+	font-size: 100%;
+	background-image: url(../images/background.png) ;
+	
+}
+
+header {
+	background-color: #369;
+	border-bottom-left-radius: 5px; 
+	border-bottom-right-radius: 5px; 
+	padding: 0% 5%;
+}
+
+h1 {
+	text-align: right;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 2.5em;
+	color: #FFF;
+	margin: 0;
+	padding: 1%;
+}
+
+
+	
+.billboard {
+	width: 100%;
+	padding: 0.5%;
+}
+@media only screen and (min-width:10em){
+	
+	.billboard {
+		display: none;
+	}
+
+	
+}
+
+@media only screen and (min-width:37em){
+	
+	.billboard {
+		display: inherit;
+	}
+
+	
+}
+
+
+@media only screen and (min-width:55em){
+	
+	.billboard {
+		display:inherit;
+		max-width: 1500px;
+		max-height: inherit;
+	}
+
+	
+}
+
+
+.wrapper {
+	background-color:#FFF;
+	width: 98%;
+	margin: 0 auto;
+	padding: 1% ;
+}
+
+
+
+@media only screen and (min-width:10em){
+	
+	.left {
+	width: 50%;
+	display: none;
+	}
+
+	.right {
+	width: 88%;
+	padding: 1%;
+	}
+
+	.media {
+		display: inherit;
+	}
+	
+	.media2 {
+		display: none;
+	}
+	
+
+	
+}
+
+
+
+@media only screen and (min-width:70em){
+	
+	.left {
+	float: left;
+	width: 45%;
+	display: inherit;
+	}
+
+	.right {
+	float: right;
+	width: 53%;
+	padding: 1%;
+	}
+
+	.media {
+		display: none;
+	}
+	
+	.media2 {
+		display: inherit;
+	}
+
+	
+}
+
+.picture {
+	width: 100%;
+}
+ 
+ 
+h2 {
+	text-align: left;
+	font-family: Arial, "Helvetica", sans-serif;
+	font-size: 2em;
+	color: #369;
+}
+
+h3 {
+	text-align: left;
+	font-family: Arial, "Helvetica", sans-serif;
+	font-size: 1.5em;
+	padding: 1% 1% 0% 0%;
+	color: #369;
+}
+	
+	
+
+p { 
+
+	font-size: 1.4em;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	color:#000;
+	}
+	
+p2 { 
+	font-size: 1em;
+
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	} 
+
+p3 { 
+	padding: 1.5% 1.5% 1.5% 0%;
+	display: inline;
+	font-size: 1em;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	} 
+
+figcaption {
+	padding: 1.5% 1.5% 1.5% 0%;
+	text-align:center;
+	font-size: .5em;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}
+	
+
+footer {
+	background-color: #FFF;
+	padding: .5% .5% .5% 3%;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+
+
+
+/* When unsing floats to create colums you need a "clearfix" */ 
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	Clear: both;
+}
+
+.clearfix {
+	*zoom: 1; 
+}
