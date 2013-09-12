@@ -1,3 +1,3 @@
-# POOPOO
+# PooPoo
 
 My amazing portfolio website!
