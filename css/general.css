@@ -15,69 +15,40 @@ header {
 	padding: 0% 5%;
 }
 
+
 h1 {
 	text-align: right;
 	font-family: "Georgia", Times New Roman, Times, serif;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: #FFF;
 	margin: 0;
 	padding: 1%;
 }
 
 
-	
-.billboard {
-	width: 100%;
-	padding: 0.5%;
+
+.billboard1 {
+	width: 85%;
 }
+
+.left {
+	float:left;
+	width: 15%;
+	}
+
+.right {
+	float:right;
+	width: 85%;
+	}
+	
 @media only screen and (min-width:10em){
 	
-	.billboard {
-		display: none;
-	}
-
-	
-}
-
-@media only screen and (min-width:37em){
-	
-	.billboard {
-		display: inherit;
-	}
-
-	
-}
-
-
-@media only screen and (min-width:55em){
-	
-	.billboard {
-		display:inherit;
-		max-width: 1500px;
-		max-height: inherit;
-	}
-
-	
-}
-
-
-.wrapper {
-	background-color:#FFF;
-	width: 98%;
-	margin: 0 auto;
-	padding: 1% ;
-}
-
-
-
-@media only screen and (min-width:10em){
-	
-	.left {
+	.left2 {
 	width: 50%;
 	display: none;
 	}
 
-	.right {
+	.right2 {
 	width: 88%;
 	padding: 1%;
 	}
@@ -98,13 +69,13 @@ h1 {
 
 @media only screen and (min-width:70em){
 	
-	.left {
+	.left2 {
 	float: left;
 	width: 45%;
 	display: inherit;
 	}
 
-	.right {
+	.right2 {
 	float: right;
 	width: 53%;
 	padding: 1%;
@@ -125,6 +96,29 @@ h1 {
 	width: 100%;
 }
  
+.wrapper2 {
+	background: #369;
+	width: 100%;
+	margin: 10;
+	padding: .5%;
+}	
+
+p2 { 
+	padding: 1% 1% 1% 6%;
+	text-align: left;
+	font-size: 1.5em;
+	font-family:Arial, "Helvetica", sans-serif;
+	color:#369;
+}
+
+.wrapper {
+	background: #FFF;
+	width: 80%;
+	margin: 0% 5% 0% 6%;
+	padding: 3%;
+}	
+
+
  
 h2 {
 	text-align: left;
@@ -144,14 +138,13 @@ h3 {
 	
 
 p { 
-
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-family: "Georgia", Times New Roman, Times, serif;
 	color:#000;
 	}
 	
-p2 { 
-	font-size: 1em;
+p4 { 
+	font-size: 1.5em;
 
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000;
@@ -160,7 +153,7 @@ p2 {
 p3 { 
 	padding: 1.5% 1.5% 1.5% 0%;
 	display: inline;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000;
 	} 
@@ -168,19 +161,21 @@ p3 {
 figcaption {
 	padding: 1.5% 1.5% 1.5% 0%;
 	text-align:center;
-	font-size: .5em;
+	font-size: 1em;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000;
 }
-	
 
 footer {
+	font-size: 1em;
 	background-color: #FFF;
 	padding: .5% .5% .5% 3%;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
+	box-shadow: 0px 14px 10px 20px rgba(0, 0, 0, .3);
 }
+	
 
 
 
